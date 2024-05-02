@@ -9,3 +9,14 @@
 			str += "</tr></table>";
 			document.write(str);
 		}
+
+		var sum = 0;
+
+		for (var i=0; i<numbers.length; i++) {			
+			sum = sum + numbers[i];
+		}
+
+		
+		numbers.push(sum);
+		showArray(numbers);
+		
